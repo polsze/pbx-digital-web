@@ -137,8 +137,8 @@ const ContactoPage = () => {
             </h1>
 
             <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8">
-              Estamos en el centro de Posadas, Misiones, para asesorarte en
-              desarrollo web, sistemas y marketing digital. También respondemos
+              Estamos en Posadas, Misiones, para asesorarte en
+              desarrollo web, sistemas y marketing digital. Asesoramiento
               rápido por WhatsApp y email.
             </p>
 

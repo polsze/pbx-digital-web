@@ -5,12 +5,12 @@ export const navLinks = [
 ]
 
 export const footerServices = [
-  'Marketing Digital en Posadas',
-  'Desarrollo web 6 app en Posadas',
-  'Diseño Gráfico en Posadas',
-  'Merchandising Personalizado en Posadas',
-  'Community Manager Posadas',
-  'Impresión 3D en Posadas'
+  'Marketing Digital',
+  'Desarrollo web 6 app',
+  'Diseño Gráfico',
+  'Merchandising Personalizado',
+  'Community Manager',
+  'Impresión 3D'
 ]
 
 export const contactInfo = {

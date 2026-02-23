@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async'
-import { Hero, ServicesHighlight, AboutPreview, Stats, Clients } from '../components/home'
+import { Hero, ServicesHighlight, AboutPreview,  Clients } from '../components/home'
 import { seoData, siteConfig, localBusinessSchema } from '../data/seoData'
 
 const HomePage = () => {
@@ -34,7 +34,6 @@ const HomePage = () => {
 
       <Hero />
       <ServicesHighlight />
-      <Stats />
       <AboutPreview />
       <Clients /> 
     </>

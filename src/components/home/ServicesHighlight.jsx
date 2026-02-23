@@ -72,7 +72,7 @@ const ServicesHighlight = () => {
           <div className="inline-flex items-center bg-[#a0ff00]/10 border border-[#a0ff00]/20 rounded-full px-4 py-2">
             <span className="w-2 h-2 bg-[#a0ff00] rounded-full mr-2 animate-pulse"></span>
             <span className="text-[#a0ff00] text-sm font-medium">
-              SERVICIOS EN POSADAS Y MISIONES
+              SERVICIOS EN POSADAS Y EN TODO EL PAÍS
             </span>
           </div>
         </motion.div>
@@ -103,12 +103,12 @@ const ServicesHighlight = () => {
         >
           En <strong className="text-white">PBX DIGITAL</strong> impulsamos
           empresas con
-          <strong className="text-white"> marketing digital en Posadas</strong>,
+          <strong className="text-white"> marketing digital</strong>,
           <strong className="text-white">
             {" "}
             desarrollo web y de aplicaciones
           </strong>
-          , diseño gráfico profesional, gestión estratégica de redes sociales y
+          , diseño gráfico profesional, gestión estratégica de redes sociales y campañas publicitarias profesionales, 
           producción de merchandising con sublimación e impresión 3D.
         </motion.p>
 

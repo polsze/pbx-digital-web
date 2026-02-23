@@ -265,7 +265,7 @@ const Clients = () => {
         >
           <div className="inline-flex items-center bg-[#a0ff00]/10 border border-[#a0ff00]/20 rounded-full px-6 py-3">
             <span className="text-[#a0ff00] text-sm font-medium text-center">
-              Haz que tu Empresa tenga presencia digital.
+              Hacé que tu Empresa tenga presencia digital.
             </span>
           </div>
         </motion.div>

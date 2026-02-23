@@ -122,7 +122,7 @@ const Hero = () => {
             >
               Somos una{" "}
               <span className="text-white font-semibold">
-                agencia de marketing digital en Posadas Misiones
+                agencia de marketing digital
               </span>{" "}
               especializada en{" "}
               <span className="text-white font-semibold">desarrollo web</span>,{" "}
@@ -131,13 +131,16 @@ const Hero = () => {
               </span>
               ,{" "}
               <span className="text-white font-semibold">
-                diseño gráfico profesional
+                diseño gráfico
               </span>{" "}
-              y{" "}
+              ,{" "}
               <span className="text-white font-semibold">
                 campañas publicitarias
               </span>
-              . Impulsamos empresas locales con estrategias digitales y
+              <span className="text-white font-semibold">
+                y merchandising
+              </span>
+              . Impulsamos empresas con estrategias digitales y
               soluciones de alto impacto.
             </motion.p>
             {/* CTA Buttons */}
