@@ -2,89 +2,70 @@
 <html lang="es-AR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="PBX DIGITAL" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Título y descripción base -->
-    <title>PBX DIGITAL | Agencia de Marketing Digital en Posadas, Misiones</title>
+    <!-- SEO Base -->
+    <title>PBX DIGITAL | Marketing Digital en Posadas, Misiones</title>
+
     <meta
       name="description"
-      content="Expertos en marketing digital, programación, diseño gráfico y merchandising en Posadas. Sublimación e impresión 3D. ¡Impulsa tu negocio en Misiones"
+      content="Agencia de marketing digital, desarrollo web, diseño gráfico y merchandising en Posadas con servicios para todo el país. Impulsamos negocios con estrategias digitales reales."
     />
+
     <meta
       name="keywords"
-      content="marketing digital Posadas, agencia de marketing Misiones, programación Posadas, diseño gráfico Posadas, merchandising Posadas, sublimación Posadas, impresión 3D Posadas, community manager Posadas, desarrollo de apps Posadas"
+      content="marketing digital Posadas, agencia digital Argentina, desarrollo web Posadas, diseño gráfico Posadas, merchandising personalizado, sublimación, impresión 3D, community manager"
     />
 
-    <!-- Autor y derechos -->
     <meta name="author" content="PBX DIGITAL" />
-    <meta name="copyright" content="PBX DIGITAL" />
-
-    <!-- Robots -->
     <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
 
-    <!-- Geo tags -->
+    <!-- Geo (opcional pero correcto) -->
     <meta name="geo.region" content="AR-N" />
-    <meta name="geo.placename" content="Posadas, Misiones, Argentina" />
+    <meta name="geo.placename" content="Posadas, Argentina" />
     <meta name="geo.position" content="-27.3621;-55.9009" />
     <meta name="ICBM" content="-27.3621, -55.9009" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Canonical -->
+    <link rel="canonical" href="https://pbxdigital.com.ar/" />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://pbxdigital.com.ar/" />
-    <meta
-      property="og:title"
-      content="PBX DIGITAL | Agencia de Marketing Digital en Posadas, Misiones"
-    />
+    <meta property="og:title" content="PBX DIGITAL | Agencia Digital en Posadas, Misiones" />
     <meta
       property="og:description"
-      content="Expertos en marketing digital, programación, diseño gráfico y merchandising en Posadas. Sublimación e impresión 3D."
+      content="Marketing digital, desarrollo web y merchandising con producción en Posadas y envíos a todo el país."
     />
-    <meta
-      property="og:image"
-      content="https://pbxdigital.com.ar/og-image.jpg"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image" content="https://pbxdigital.com.ar/og-image.jpg" />
     <meta property="og:locale" content="es_AR" />
     <meta property="og:site_name" content="PBX DIGITAL" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://pbxdigital.com.ar/" />
-    <meta
-      name="twitter:title"
-      content="PBX DIGITAL | Agencia de Marketing Digital en Posadas, Misiones"
-    />
+    <meta name="twitter:title" content="PBX DIGITAL | Agencia Digital" />
     <meta
       name="twitter:description"
-      content="Expertos en marketing digital, programación, diseño gráfico y merchandising en Posadas. Sublimación e impresión 3D."
+      content="Desarrollo web, marketing digital y merchandising en Posadas con alcance nacional."
     />
     <meta name="twitter:image" content="https://pbxdigital.com.ar/og-image.jpg" />
-    <meta name="twitter:site" content="@pbxdigital" />
 
-    <!-- Tema de color -->
+    <!-- Theme -->
     <meta name="theme-color" content="#000000" />
-    <meta name="msapplication-TileColor" content="#000000" />
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://pbxdigital.com.ar/" />
-
-    <!-- Hreflang -->
-    <link rel="alternate" href="https://pbxdigital.com.ar/" hreflang="es-AR" />
-    <link rel="alternate" href="https://pbxdigital.com.ar/" hreflang="x-default" />
-
-    <!-- Precarga de fuentes -->
+    <!-- Preconnect Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel (script va en head) -->
     <script>
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
@@ -113,17 +94,20 @@
       fbq("init", "1268645565113671");
       fbq("track", "PageView");
     </script>
+    <!-- End Meta Pixel -->
+  </head>
+
+  <body class="bg-black">
+    <!-- Meta Pixel (noscript debe ir en body) -->
     <noscript>
       <img
         height="1"
         width="1"
-        style="display: none"
+        style="display:none"
         src="https://www.facebook.com/tr?id=1268645565113671&ev=PageView&noscript=1"
       />
     </noscript>
-    <!-- End Meta Pixel Code -->
-  </head>
-  <body class="bg-black">
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

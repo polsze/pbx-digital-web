@@ -1,19 +1,19 @@
 export const seoData = {
   home: {
-    title: 'PBX DIGITAL | Agencia de Marketing Digital en Posadas Misiones',
-    description: '🚀 Expertos en marketing digital, programación, diseño gráfico y merchandising en Posadas. Sublimación e impresión 3D. ¡Impulsa tu negocio con nosotros!',
+    title: 'PBX Digital | Marketing Digital en Posadas, Misiones',
+    description: 'Agencia de marketing digital en Posadas. Desarrollo web, Meta Ads, diseño y merchandising con envíos a todo el país',
     keywords: 'marketing digital Posadas, agencia de marketing Misiones, programación Posadas, diseño gráfico Posadas, merchandising Posadas, sublimación Posadas, impresión 3D Posadas, community manager Posadas, desarrollo de apps Posadas',
     h1: 'Agencia de Marketing Digital y Merchandising en Posadas'
   },
   servicios: {
-    title: 'Servicios de Marketing Digital y Programación en Posadas | PBX DIGITAL',
-    description: '📱 Descubrí nuestros servicios en Posadas: marketing digital, desarrollo de apps, diseño gráfico, gestión de RRSS y merchandising físico. ¡Transformamos tu negocio!',
+    title: 'Servicios | PBX Digital, Marketing Digital en Posadas',
+    description: 'Descubrí nuestros servicios en Posadas: marketing digital, desarrollo de apps, diseño gráfico, gestión de RRSS y merchandising físico',
     keywords: 'servicios marketing Posadas, desarrollo de aplicaciones Misiones, diseño gráfico Posadas, community manager Posadas, sublimación Posadas, impresión 3D Misiones, publicidad Posadas',
     h1: 'Nuestros Servicios Digitales y de Merchandising en Posadas'
   },
   contacto: {
-    title: 'Contacto | Agencia de Marketing Digital en Posadas | PBX DIGITAL',
-    description: '📞 Contactanos en Posadas Misiones. Trabajemos juntos en marketing digital, programación, diseño y merchandising. ¡Respuesta rápida y presupuesto sin cargo!',
+    title: 'Contacto | PBX Digital, Marketing Digital en Posadas',
+    description: 'Contactanos en Posadas, Misiones. Consultá sobre marketing digital, programación, diseño y merchandising. Respuesta rápida y presupuesto sin cargo',
     keywords: 'contacto marketing Posadas, agencia de publicidad Posadas, consultoría marketing Misiones, presupuesto diseño Posadas, WhatsApp Posadas',
     h1: 'Contactate con la mejor agencia de Posadas'
   }
