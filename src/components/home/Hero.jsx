@@ -179,7 +179,7 @@ const Hero = () => {
                   href="https://wa.me/5493765252582?text=Hola%20PBX%20DIGITAL%2C%20visité%20su%20página%20web%20y%20quiero%20consultar%20por%20sus%20servicios%20digitales"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={handleWhatsAppClick} // Trackear click
+                  onClick={handleWhatsAppClick}
                   className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-[#a0ff00] text-[#a0ff00] font-bold rounded-lg hover:bg-[#a0ff00] hover:text-black transition-all duration-300"
                 >
                   <svg
@@ -216,31 +216,14 @@ const Hero = () => {
               <div className="relative">
                 <img
                   src={Logo}
-                  alt="Equipo PBX DIGITAL Posadas trabajando en marketing digital y merchandising"
+                  alt="Logo PBX DIGITAL marketing digital en Posadas Misiones"
                   className="rounded-2xl shadow-2xl shadow-[#a0ff00]/10 h-40"
                 />
 
                 {/* Overlay con gradiente */}
-                <div className="absolute xl:right-40 inset-0 rounded-2xl bg-gradient-to-tr from-black/30 via-transparent to-[#a0ff00]/20"></div>
+                <div className="absolute xl:right-40 xl:-top-4 inset-0 rounded-2xl bg-gradient-to-tr from-black/30 via-transparent to-[#a0ff00]/20"></div>
 
-                {/* Badge flotante */}
-                <motion.div
-                  className="absolute -bottom-16 -left-6 bg-black border border-[#a0ff00]/30 rounded-xl p-4 shadow-xl"
-                  animate={{ y: [0, -5, 0] }}
-                  transition={{ duration: 3, repeat: Infinity }}
-                >
-                  <div className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-[#a0ff00]/20 rounded-lg flex items-center justify-center">
-                      <span className="text-[#a0ff00] text-xl">🚀</span>
-                    </div>
-                    <div>
-                      <div className="text-xs text-gray-400">Expertos en</div>
-                      <div className="text-sm font-bold text-[#a0ff00]">
-                        Posadas
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
+               
               </div>
             </motion.div>
           </motion.div>
