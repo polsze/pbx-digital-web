@@ -1,0 +1,11 @@
+# Robots.txt
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://pbxdigital.com.ar/sitemap.xml
+
+# Host
+Host: https://pbxdigital.com.ar
